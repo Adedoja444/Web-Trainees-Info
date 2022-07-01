@@ -1,0 +1,67 @@
+body {
+   
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.thecards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+}
+
+.card {
+    background-color: rgb(58, 56, 56);;
+    /* height: 60vh; */
+    color: #fff;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    
+}
+
+
+.info {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.people {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    /* height: auto; */
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0px 5px 25px 3px rgb(10, 10, 10);
+}
+
+/* tablet view */
+@media(max-width:768px  ) {
+    .card {
+        width: 40%;
+    }
+}
+
+/* mobile view */
+@media(max-width:435px  ) {
+    .card {
+        width: 85%;
+    }
+}
